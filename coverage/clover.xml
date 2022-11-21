@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1656622266977" clover="3.2.0">
+  <project timestamp="1656622266978" name="All files">
+    <metrics statements="787" coveredstatements="494" conditionals="252" coveredconditionals="130" methods="244" coveredmethods="124" elements="1283" coveredelements="748" complexity="0" loc="787" ncloc="787" packages="18" files="44" classes="44"/>
+    <package name="app">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="app.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\app.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="app.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\app.component.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.common.components">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="common.module.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\common.module.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.common.components.confirm-modal">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="confirm-modal.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\confirm-modal\confirm-modal.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="confirm-modal.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\confirm-modal\confirm-modal.component.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.common.components.custom-input">
+      <metrics statements="34" coveredstatements="29" conditionals="5" coveredconditionals="1" methods="7" coveredmethods="4"/>
+      <file name="custom-input.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\custom-input\custom-input.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+      <file name="custom-input.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\custom-input\custom-input.component.ts">
+        <metrics statements="33" coveredstatements="28" conditionals="5" coveredconditionals="1" methods="7" coveredmethods="4"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="32" type="stmt"/>
+        <line num="17" count="32" type="stmt"/>
+        <line num="18" count="32" type="stmt"/>
+        <line num="19" count="32" type="stmt"/>
+        <line num="20" count="32" type="stmt"/>
+        <line num="21" count="32" type="stmt"/>
+        <line num="22" count="32" type="stmt"/>
+        <line num="23" count="32" type="stmt"/>
+        <line num="24" count="32" type="stmt"/>
+        <line num="25" count="32" type="stmt"/>
+        <line num="26" count="32" type="stmt"/>
+        <line num="27" count="32" type="stmt"/>
+        <line num="29" count="32" type="stmt"/>
+        <line num="30" count="32" type="stmt"/>
+        <line num="31" count="32" type="stmt"/>
+        <line num="32" count="32" type="stmt"/>
+        <line num="34" count="32" type="stmt"/>
+        <line num="35" count="32" type="stmt"/>
+        <line num="36" count="32" type="stmt"/>
+        <line num="37" count="32" type="stmt"/>
+        <line num="39" count="32" type="stmt"/>
+        <line num="40" count="32" type="stmt"/>
+        <line num="42" count="32" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="56" count="140" type="stmt"/>
+        <line num="60" count="70" type="cond" truecount="1" falsecount="1"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.common.components.error">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="error.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\error\error.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+      <file name="error.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\error\error.component.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.common.components.p-select">
+      <metrics statements="70" coveredstatements="16" conditionals="36" coveredconditionals="4" methods="31" coveredmethods="2"/>
+      <file name="p-select.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\p-select\p-select.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+      <file name="p-select.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\p-select\p-select.component.ts">
+        <metrics statements="69" coveredstatements="15" conditionals="36" coveredconditionals="4" methods="31" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="71" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="86" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="106" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="116" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="137" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="138" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="139" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="145" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="156" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="158" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="163" count="0" type="stmt"/>
+        <line num="164" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="173" count="0" type="stmt"/>
+        <line num="174" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="181" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="182" count="4" type="stmt"/>
+        <line num="183" count="4" type="stmt"/>
+        <line num="184" count="4" type="stmt"/>
+        <line num="185" count="4" type="stmt"/>
+        <line num="188" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="189" count="4" type="stmt"/>
+        <line num="190" count="4" type="stmt"/>
+        <line num="191" count="4" type="stmt"/>
+        <line num="192" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.common.components.p-select-multiple">
+      <metrics statements="64" coveredstatements="39" conditionals="29" coveredconditionals="18" methods="23" coveredmethods="8"/>
+      <file name="p-select-multiple.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\p-select-multiple\p-select-multiple.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+      <file name="p-select-multiple.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\p-select-multiple\p-select-multiple.component.ts">
+        <metrics statements="63" coveredstatements="38" conditionals="29" coveredconditionals="18" methods="23" coveredmethods="8"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="23" count="123" type="stmt"/>
+        <line num="29" count="123" type="stmt"/>
+        <line num="30" count="123" type="stmt"/>
+        <line num="31" count="123" type="stmt"/>
+        <line num="37" count="123" type="stmt"/>
+        <line num="39" count="123" type="stmt"/>
+        <line num="40" count="123" type="stmt"/>
+        <line num="41" count="123" type="stmt"/>
+        <line num="43" count="123" type="stmt"/>
+        <line num="48" count="123" type="stmt"/>
+        <line num="51" count="123" type="stmt"/>
+        <line num="53" count="123" type="stmt"/>
+        <line num="57" count="123" type="stmt"/>
+        <line num="61" count="123" type="stmt"/>
+        <line num="67" count="129" type="stmt"/>
+        <line num="68" count="129" type="cond" truecount="3" falsecount="0"/>
+        <line num="69" count="6" type="stmt"/>
+        <line num="70" count="6" type="stmt"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="76" count="270" type="cond" truecount="5" falsecount="1"/>
+        <line num="82" count="1350" type="stmt"/>
+        <line num="86" count="270" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="92" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="109" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="127" count="123" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="143" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="145" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="151" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="161" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="170" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="171" count="4" type="stmt"/>
+        <line num="172" count="4" type="stmt"/>
+        <line num="173" count="4" type="stmt"/>
+        <line num="174" count="4" type="stmt"/>
+        <line num="177" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="178" count="4" type="stmt"/>
+        <line num="179" count="4" type="stmt"/>
+        <line num="180" count="4" type="stmt"/>
+        <line num="181" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.common.components.table">
+      <metrics statements="62" coveredstatements="7" conditionals="22" coveredconditionals="0" methods="26" coveredmethods="0"/>
+      <file name="table.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\table\table.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+      <file name="table.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\table\table.component.ts">
+        <metrics statements="61" coveredstatements="6" conditionals="22" coveredconditionals="0" methods="26" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="62" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="95" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="106" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="160" count="0" type="stmt"/>
+        <line num="172" count="0" type="stmt"/>
+        <line num="178" count="0" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="189" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="196" count="0" type="stmt"/>
+        <line num="197" count="0" type="stmt"/>
+        <line num="203" count="0" type="stmt"/>
+        <line num="214" count="4" type="stmt"/>
+        <line num="215" count="0" type="stmt"/>
+        <line num="216" count="0" type="stmt"/>
+        <line num="217" count="0" type="cond" truecount="0" falsecount="3"/>
+      </file>
+    </package>
+    <package name="app.common.components.table.atoms">
+      <metrics statements="45" coveredstatements="5" conditionals="9" coveredconditionals="0" methods="12" coveredmethods="0"/>
+      <file name="context-menu.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\table\atoms\context-menu.component.ts">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="tb-pagination.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\components\table\atoms\tb-pagination.component.ts">
+        <metrics statements="41" coveredstatements="3" conditionals="9" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="149" count="3" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="170" count="0" type="stmt"/>
+        <line num="171" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="181" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="196" count="0" type="stmt"/>
+        <line num="197" count="0" type="stmt"/>
+        <line num="200" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="201" count="0" type="stmt"/>
+        <line num="207" count="0" type="stmt"/>
+        <line num="211" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="212" count="0" type="stmt"/>
+        <line num="214" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="215" count="0" type="stmt"/>
+        <line num="217" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="218" count="0" type="stmt"/>
+        <line num="220" count="0" type="stmt"/>
+        <line num="221" count="0" type="stmt"/>
+        <line num="222" count="0" type="stmt"/>
+        <line num="223" count="0" type="stmt"/>
+        <line num="226" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="227" count="0" type="stmt"/>
+        <line num="228" count="0" type="stmt"/>
+        <line num="230" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="231" count="0" type="stmt"/>
+        <line num="232" count="0" type="stmt"/>
+        <line num="234" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.common.modal">
+      <metrics statements="117" coveredstatements="30" conditionals="23" coveredconditionals="2" methods="31" coveredmethods="6"/>
+      <file name="bootstrap-modal.module.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\modal\bootstrap-modal.module.ts">
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+      </file>
+      <file name="dialog-holder.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\modal\dialog-holder.component.ts">
+        <metrics statements="39" coveredstatements="3" conditionals="10" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="68" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="71" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+      </file>
+      <file name="dialog-wrapper.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\modal\dialog-wrapper.component.ts">
+        <metrics statements="23" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+      </file>
+      <file name="dialog.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\modal\dialog.component.ts">
+        <metrics statements="17" coveredstatements="7" conditionals="3" coveredconditionals="0" methods="6" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="70" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="71" count="0" type="stmt"/>
+      </file>
+      <file name="dialog.service.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\modal\dialog.service.ts">
+        <metrics statements="29" coveredstatements="9" conditionals="6" coveredconditionals="2" methods="8" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="69" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="98" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.common.utils">
+      <metrics statements="57" coveredstatements="56" conditionals="37" coveredconditionals="34" methods="13" coveredmethods="13"/>
+      <file name="base64ToArray.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\utils\base64ToArray.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="5061" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+      <file name="fn.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\utils\fn.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+      <file name="validate-date.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\common\utils\validate-date.ts">
+        <metrics statements="43" coveredstatements="42" conditionals="35" coveredconditionals="32" methods="10" coveredmethods="10"/>
+        <line num="1" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="23" type="stmt"/>
+        <line num="3" count="23" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="7" count="19" type="stmt"/>
+        <line num="12" count="23" type="cond" truecount="2" falsecount="1"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="20" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="16" type="stmt"/>
+        <line num="26" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="30" count="57" type="stmt"/>
+        <line num="31" count="57" type="stmt"/>
+        <line num="32" count="171" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="57" type="stmt"/>
+        <line num="38" count="19" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="19" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="19" type="cond" truecount="2" falsecount="1"/>
+        <line num="46" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="19" type="stmt"/>
+        <line num="51" count="57" type="stmt"/>
+        <line num="52" count="57" type="stmt"/>
+        <line num="54" count="19" type="cond" truecount="0" falsecount="1"/>
+        <line num="56" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="19" type="stmt"/>
+        <line num="62" count="19" type="stmt"/>
+        <line num="64" count="57" type="stmt"/>
+        <line num="66" count="19" type="stmt"/>
+        <line num="68" count="57" type="stmt"/>
+        <line num="70" count="19" type="stmt"/>
+        <line num="72" count="57" type="stmt"/>
+        <line num="75" count="19" type="cond" truecount="4" falsecount="0"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="82" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="83" count="17" type="stmt"/>
+        <line num="84" count="17" type="stmt"/>
+        <line num="85" count="17" type="stmt"/>
+        <line num="86" count="17" type="stmt"/>
+        <line num="87" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="93" count="3" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="100" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.base">
+      <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="2"/>
+      <file name="base.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\base\base.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="base.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\base\base.component.ts">
+        <metrics statements="13" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.discharged-person-report">
+      <metrics statements="82" coveredstatements="75" conditionals="34" coveredconditionals="26" methods="25" coveredmethods="23"/>
+      <file name="discharged-person-report.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\discharged-person-report\discharged-person-report.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="discharged-person-report.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\discharged-person-report\discharged-person-report.component.ts">
+        <metrics statements="81" coveredstatements="74" conditionals="34" coveredconditionals="26" methods="25" coveredmethods="23"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="13" type="stmt"/>
+        <line num="34" count="13" type="stmt"/>
+        <line num="37" count="13" type="stmt"/>
+        <line num="38" count="13" type="stmt"/>
+        <line num="39" count="13" type="stmt"/>
+        <line num="40" count="13" type="stmt"/>
+        <line num="42" count="13" type="stmt"/>
+        <line num="49" count="13" type="stmt"/>
+        <line num="50" count="13" type="stmt"/>
+        <line num="51" count="13" type="stmt"/>
+        <line num="52" count="13" type="stmt"/>
+        <line num="53" count="13" type="stmt"/>
+        <line num="54" count="13" type="stmt"/>
+        <line num="56" count="13" type="stmt"/>
+        <line num="57" count="13" type="stmt"/>
+        <line num="58" count="13" type="stmt"/>
+        <line num="59" count="13" type="stmt"/>
+        <line num="61" count="13" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="76" count="15" type="stmt"/>
+        <line num="80" count="16" type="stmt"/>
+        <line num="84" count="14" type="stmt"/>
+        <line num="88" count="42" type="stmt"/>
+        <line num="92" count="17" type="stmt"/>
+        <line num="96" count="14" type="stmt"/>
+        <line num="102" count="13" type="stmt"/>
+        <line num="122" count="13" type="stmt"/>
+        <line num="127" count="13" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="134" count="13" type="stmt"/>
+        <line num="135" count="13" type="stmt"/>
+        <line num="136" count="13" type="stmt"/>
+        <line num="137" count="13" type="stmt"/>
+        <line num="138" count="13" type="stmt"/>
+        <line num="139" count="13" type="stmt"/>
+        <line num="141" count="3" type="stmt"/>
+        <line num="146" count="13" type="stmt"/>
+        <line num="150" count="4" type="stmt"/>
+        <line num="151" count="4" type="stmt"/>
+        <line num="155" count="13" type="stmt"/>
+        <line num="170" count="1" type="stmt"/>
+        <line num="185" count="1" type="stmt"/>
+        <line num="187" count="1" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="192" count="0" type="stmt"/>
+        <line num="195" count="1" type="stmt"/>
+        <line num="200" count="1" type="stmt"/>
+        <line num="203" count="1" type="stmt"/>
+        <line num="210" count="30" type="stmt"/>
+        <line num="211" count="73" type="stmt"/>
+        <line num="212" count="73" type="cond" truecount="3" falsecount="0"/>
+        <line num="213" count="67" type="stmt"/>
+        <line num="216" count="6" type="cond" truecount="3" falsecount="0"/>
+        <line num="217" count="2" type="stmt"/>
+        <line num="220" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="221" count="1" type="stmt"/>
+        <line num="224" count="3" type="stmt"/>
+        <line num="236" count="2" type="stmt"/>
+        <line num="238" count="2" type="stmt"/>
+        <line num="262" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="264" count="1" type="stmt"/>
+        <line num="268" count="2" type="stmt"/>
+        <line num="272" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.new-person-report">
+      <metrics statements="89" coveredstatements="82" conditionals="37" coveredconditionals="32" methods="27" coveredmethods="25"/>
+      <file name="new-person-report.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\new-person-report\new-person-report.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="new-person-report.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\new-person-report\new-person-report.component.ts">
+        <metrics statements="88" coveredstatements="81" conditionals="37" coveredconditionals="32" methods="27" coveredmethods="25"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="14" type="stmt"/>
+        <line num="34" count="14" type="stmt"/>
+        <line num="35" count="14" type="stmt"/>
+        <line num="36" count="14" type="stmt"/>
+        <line num="37" count="14" type="stmt"/>
+        <line num="40" count="14" type="stmt"/>
+        <line num="42" count="14" type="stmt"/>
+        <line num="49" count="14" type="stmt"/>
+        <line num="50" count="14" type="stmt"/>
+        <line num="51" count="14" type="stmt"/>
+        <line num="52" count="14" type="stmt"/>
+        <line num="53" count="14" type="stmt"/>
+        <line num="54" count="14" type="stmt"/>
+        <line num="56" count="14" type="stmt"/>
+        <line num="57" count="14" type="stmt"/>
+        <line num="58" count="14" type="stmt"/>
+        <line num="59" count="14" type="stmt"/>
+        <line num="61" count="14" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="73" count="14" type="stmt"/>
+        <line num="95" count="16" type="stmt"/>
+        <line num="99" count="17" type="stmt"/>
+        <line num="103" count="15" type="stmt"/>
+        <line num="107" count="47" type="stmt"/>
+        <line num="111" count="18" type="stmt"/>
+        <line num="115" count="18" type="stmt"/>
+        <line num="119" count="15" type="stmt"/>
+        <line num="125" count="14" type="stmt"/>
+        <line num="145" count="14" type="stmt"/>
+        <line num="149" count="14" type="stmt"/>
+        <line num="150" count="14" type="stmt"/>
+        <line num="151" count="14" type="stmt"/>
+        <line num="153" count="1" type="stmt"/>
+        <line num="154" count="1" type="stmt"/>
+        <line num="157" count="14" type="stmt"/>
+        <line num="158" count="14" type="stmt"/>
+        <line num="159" count="14" type="stmt"/>
+        <line num="160" count="14" type="stmt"/>
+        <line num="161" count="14" type="stmt"/>
+        <line num="163" count="5" type="stmt"/>
+        <line num="168" count="14" type="stmt"/>
+        <line num="172" count="6" type="stmt"/>
+        <line num="173" count="6" type="stmt"/>
+        <line num="185" count="3" type="stmt"/>
+        <line num="187" count="3" type="stmt"/>
+        <line num="204" count="3" type="stmt"/>
+        <line num="205" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="206" count="2" type="stmt"/>
+        <line num="211" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="213" count="1" type="stmt"/>
+        <line num="217" count="3" type="stmt"/>
+        <line num="221" count="1" type="stmt"/>
+        <line num="228" count="32" type="stmt"/>
+        <line num="229" count="95" type="stmt"/>
+        <line num="230" count="95" type="cond" truecount="3" falsecount="0"/>
+        <line num="231" count="85" type="stmt"/>
+        <line num="234" count="10" type="cond" truecount="3" falsecount="0"/>
+        <line num="235" count="4" type="stmt"/>
+        <line num="238" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="239" count="2" type="stmt"/>
+        <line num="242" count="4" type="stmt"/>
+        <line num="247" count="1" type="stmt"/>
+        <line num="250" count="1" type="stmt"/>
+        <line num="256" count="1" type="stmt"/>
+        <line num="259" count="1" type="stmt"/>
+        <line num="265" count="1" type="stmt"/>
+        <line num="267" count="1" type="stmt"/>
+        <line num="268" count="0" type="stmt"/>
+        <line num="269" count="0" type="stmt"/>
+        <line num="270" count="0" type="stmt"/>
+        <line num="271" count="0" type="stmt"/>
+        <line num="272" count="0" type="stmt"/>
+        <line num="275" count="1" type="stmt"/>
+        <line num="279" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.page-error">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="page-error.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\page-error\page-error.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="page-error.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\page-error\page-error.component.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.unassigned-person-report">
+      <metrics statements="60" coveredstatements="50" conditionals="18" coveredconditionals="12" methods="19" coveredmethods="15"/>
+      <file name="unassigned-person-report.component.html" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\unassigned-person-report\unassigned-person-report.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="unassigned-person-report.component.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\components\unassigned-person-report\unassigned-person-report.component.ts">
+        <metrics statements="59" coveredstatements="49" conditionals="18" coveredconditionals="12" methods="19" coveredmethods="15"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="49" count="5" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="54" count="5" type="stmt"/>
+        <line num="56" count="5" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="67" count="5" type="stmt"/>
+        <line num="81" count="6" type="stmt"/>
+        <line num="85" count="16" type="stmt"/>
+        <line num="89" count="6" type="stmt"/>
+        <line num="93" count="6" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="115" count="1" type="stmt"/>
+        <line num="119" count="5" type="stmt"/>
+        <line num="125" count="5" type="stmt"/>
+        <line num="129" count="5" type="stmt"/>
+        <line num="130" count="5" type="stmt"/>
+        <line num="131" count="5" type="stmt"/>
+        <line num="132" count="5" type="stmt"/>
+        <line num="133" count="5" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="140" count="5" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="154" count="1" type="stmt"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="162" count="1" type="stmt"/>
+        <line num="166" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.services">
+      <metrics statements="60" coveredstatements="60" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="20"/>
+      <file name="celula.service.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\services\celula.service.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+      </file>
+      <file name="discharged-person-report.service.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\services\discharged-person-report.service.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+      <file name="person-report.service.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\services\person-report.service.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+      <file name="profile.service.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\services\profile.service.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="providers.service.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\services\providers.service.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="34" type="stmt"/>
+        <line num="12" count="34" type="stmt"/>
+        <line num="21" count="33" type="stmt"/>
+      </file>
+      <file name="seniority.service.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\services\seniority.service.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="tribu.service.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\services\tribu.service.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="unassigned-person-report.service.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\app\services\unassigned-person-report.service.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="environments">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="environment.ts" path="C:\Users\Freddy-PC2\Documents\appVS\stf-spa-reporting\src\environments\environment.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="11" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

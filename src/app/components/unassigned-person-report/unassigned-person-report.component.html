@@ -1,0 +1,170 @@
+<div class="row no-gutters justify-content-center">
+
+  <section class="container container-template">
+
+    <div class="col pb-2">
+      <pichincha-message-bar
+        idElement="message-unassigned-person-report"
+        (closeMessage)="onClickMessageUnassignedPerson($event)"
+        [open]="showMessageBarUnassignedPerson"
+        variant="normal"
+        status="error"
+        adjust-in="true"
+        auto-close="3000"
+      >
+        No se puede descargar el documento
+      </pichincha-message-bar>
+    </div>
+
+    <div class="col pb-2">
+
+      <section  [formGroup]="filters">
+        <div class="row">
+          <div class="col">
+            <app-p-select-multiple [items]="profiles$ | async"
+                                   id="unassignedPersonProfile"
+                                   label="Perfil"
+                                   valueExpr="id"
+                                   displayExpr="nameProfile"
+                                   placeholder="Selecciona un rol..."
+                                   (changeSelect)="profile.setValue($event)"
+                                   [search]="true"
+            ></app-p-select-multiple>
+          </div>
+          <div class="col">
+            <app-p-select-multiple [items]="providers$ | async"
+                                   id="unassignedPersonProvider"
+                                   label="Proveedor"
+                                   valueExpr="id"
+                                   displayExpr="providerName"
+                                   placeholder="Selecciona un proveedor..."
+                                   (changeSelect)="provider.setValue($event)"
+                                   [search]="true"
+            ></app-p-select-multiple>
+          </div>
+          <div class="col">
+            <app-p-select-multiple [items]="seniority$ | async"
+                                   id="unassignedPersonSeniority"
+                                   label="Seniority"
+                                   valueExpr="id"
+                                   displayExpr="seniorityName"
+                                   placeholder="Selecciona un seniority..."
+                                   (changeSelect)="seniority.setValue($event)"
+                                   [search]="true"
+            ></app-p-select-multiple>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex flex-wrap justify-content-between"
+               style="gap: 10px; align-items: end; margin-top: -5px">
+            <app-custom-input ngDefaultControl
+                              [formControl]="filter"
+                              [fullWidth]="true"
+                              label="Buscar nombre de persona"
+                              placeholder="Buscar"
+                              style="width: 220px;"
+                              id="seacrhInputUnassignedPerson"
+            ></app-custom-input>
+            <pichincha-button (click)="onClickSearchUnassignedPerson()"
+                              id="unasignedPersonDownloadReportButton"
+                              size="large"
+                              color="primary"
+                              style="margin-bottom: 5px">
+              <pichincha-icon class="mr-2"
+                              size="20px"
+                              color="error"
+                              weight_color="900"
+                              type="--outlined">
+                download
+              </pichincha-icon>
+              Descargar reporte
+            </pichincha-button>
+          </div>
+        </div>
+      </section>
+
+      <ng-container *ngIf="(personReport$ | async) as dataTable; else elseError">
+        <div class="dt-responsive mt-3 mb-3">
+          <table aria-describedby="table-person-report"
+                 class="pichincha-table"
+                 id="unassignedPersonReportTable">
+            <thead>
+            <tr>
+              <th *ngFor="let column of columns"
+                  class="pichincha-table-header">
+                <pichincha-typography variant="bodyText"
+                                      color="grey"
+                                      weight="bold"
+                                      weight_color="500"
+                                      align="inherit">
+                  {{column.caption}}
+                </pichincha-typography>
+              </th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr *ngFor="let persona of dataTable.personReportTos"
+                class="border-bottom">
+              <td>
+                {{ persona.longName | uppercase }}
+              </td>
+              <td>
+                {{persona.email}}
+              </td>
+              <td>
+                {{persona.phoneNumber}}
+              </td>
+              <td>
+                {{persona.profile}}
+              </td>
+              <td>
+                {{persona.provider}}
+              </td>
+              <td>
+                {{persona.originProvider}}
+              </td>
+              <td>
+                {{persona.seniorityName | uppercase}}
+              </td>
+
+            </tr>
+            </tbody>
+
+          </table>
+
+        </div>
+
+
+        <app-tb-pagination *ngIf="showPagination"
+                           [size]="size"
+                           [current]="currentPage"
+                           [total]="dataTable.totalElements"
+                           [optionSize]="optionSize"
+                           (evtRange)="setupPagination($event)"
+        ></app-tb-pagination>
+
+
+      </ng-container>
+
+      <ng-template #elseError id="unassignedPersonReporErrorPage">
+        <div *ngIf="showSpinner; else elseSpinner" class="d-flex align-items-center justify-content-center">
+          <pichincha-spinner background="#ffdd00" border="4" color="#f3f4f7" size="96"></pichincha-spinner>
+        </div>
+        <ng-template #elseSpinner>
+          <pichincha-typography
+            variant="bodyText"
+            color="blue"
+            weight="normal"
+            weight_color="500"
+          >
+            Es posible que el enlace que seleccionaste esté roto o que se haya eliminado la página.
+          </pichincha-typography>
+        </ng-template>
+      </ng-template>
+
+    </div>
+
+  </section>
+
+</div>
